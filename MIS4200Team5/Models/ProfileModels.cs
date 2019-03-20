@@ -16,7 +16,7 @@ namespace MIS4200Team5.Models
 	public class ProfileModels
 	{
 		// Using guid for a unique ID
-		public System.Guid employeeId { get; set; }
+		public System.Guid id { get; set; }
 
 		// Data Annotations for Employee First Name
 		[Display(Name = "First Name")]
